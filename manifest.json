@@ -1,0 +1,11 @@
+{
+    "name": "Old-School(ogy)",
+    "description": "Bring back the old schoology icons.",
+    "version": "Alpha 1.0.0",
+    "manifest_version": 3,
+    "action":
+    {
+        "default_popup": "main.html",
+        "default_icon": "images/icon.png"
+    }
+}
