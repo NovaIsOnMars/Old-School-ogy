@@ -1,11 +1,20 @@
 {
     "name": "Old-School(ogy)",
     "description": "Bring back the old schoology icons.",
-    "version": "Alpha 1.0.0",
+    "version": "1.0.0",
     "manifest_version": 3,
-    "action":
-    {
+    "icons": {
+        "32": "resources/extension/images/logo32.png",
+        "64": "resources/extension/images/logo64.png",
+        "128": "resources/extension/images/logo128.png"
+    },
+    "action": {
+        "default_title": "name",
         "default_popup": "main.html",
-        "default_icon": "images/icon.png"
+        "default_icon": {
+            "32": "resources/extension/images/logo32.png",
+            "64": "resources/extension/images/logo64.png",
+            "128": "resources/extension/images/logo128.png"
+        }
     }
 }
